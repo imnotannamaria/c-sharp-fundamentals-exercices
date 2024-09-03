@@ -1,0 +1,14 @@
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\bin\Debug\net8.0\FundamentosCSharp.exe
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\bin\Debug\net8.0\FundamentosCSharp.deps.json
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\bin\Debug\net8.0\FundamentosCSharp.runtimeconfig.json
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\bin\Debug\net8.0\FundamentosCSharp.dll
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\bin\Debug\net8.0\FundamentosCSharp.pdb
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.AssemblyInfoInputs.cache
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.AssemblyInfo.cs
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.csproj.CoreCompileInputs.cache
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.dll
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\refint\FundamentosCSharp.dll
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.pdb
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\FundamentosCSharp.genruntimeconfig.cache
+C:\MeusProjetos\CSharp\Ignite\FundamentosCSharp\obj\Debug\net8.0\ref\FundamentosCSharp.dll
