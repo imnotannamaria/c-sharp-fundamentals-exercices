@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Text.RegularExpressions;
 
 internal class Program
@@ -11,6 +11,7 @@ internal class Program
         // Calc();
         // CountCharacters();
         // VerifyCarNumber();
+        // DisplayCurrentDate();
     }
 
     public static void SendWelcomeMessage()
@@ -90,5 +91,50 @@ internal class Program
         bool isValid = Regex.IsMatch(input, pattern);
 
         Console.WriteLine(isValid ? "Verdadeiro" : "Falso");
+    }
+
+    public static void DisplayCurrentDate()
+    {
+        Console.WriteLine("Escolha o formato para exibir a data atual:");
+        Console.WriteLine("1 - Formato completo (dia da semana, dia do mês, mês, ano, hora, minutos, segundos)");
+        Console.WriteLine("2 - Apenas a data no formato \"dd/MM/yyyy\"");
+        Console.WriteLine("3 - Apenas a hora no formato de 24 horas");
+        Console.WriteLine("4 - A data com o mês por extenso");
+        Console.Write("Digite a opção desejada (1-4): ");
+
+        string option = Console.ReadLine();
+
+        DateTime currentDate = DateTime.Now;
+
+        switch (option)
+        {
+            case "1":
+                // Formato completo
+                Console.WriteLine("Data atual (formato completo):");
+                Console.WriteLine(currentDate.ToString("dddd, dd 'de' MMMM 'de' yyyy, HH:mm:ss"));
+                break;
+
+            case "2":
+                // Apenas a data no formato "dd/MM/yyyy"
+                Console.WriteLine("Data atual (apenas a data):");
+                Console.WriteLine(currentDate.ToString("dd/MM/yyyy"));
+                break;
+
+            case "3":
+                // Apenas a hora no formato de 24 horas
+                Console.WriteLine("Hora atual (formato de 24 horas):");
+                Console.WriteLine(currentDate.ToString("HH:mm:ss"));
+                break;
+
+            case "4":
+                // A data com o mês por extenso
+                Console.WriteLine("Data atual (com mês por extenso):");
+                Console.WriteLine(currentDate.ToString("dd 'de' MMMM 'de' yyyy"));
+                break;
+
+            default:
+                Console.WriteLine("Opção inválida! Por favor, escolha um número entre 1 e 4.");
+                break;
+        }
     }
 }
